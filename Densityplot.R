@@ -1,0 +1,5 @@
+data(mtcars)
+head(mtcars,6)
+Income<-rlnorm(4000,meanlog=4,sdlog = 0.7)
+plot(density(log10(Income),adjust=0.5),main="distribution")
+rug(log10(Income))
