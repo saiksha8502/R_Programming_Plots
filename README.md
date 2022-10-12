@@ -1,3 +1,3 @@
 # R_Programming_Plots
 
-Plots using R Programming
+Basic Plots using R Programming
