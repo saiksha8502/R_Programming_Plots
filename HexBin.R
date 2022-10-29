@@ -1,6 +1,0 @@
-install.packages("hexbin")
-library(hexbin)
-x<-rnorm(2000)
-y<-rnorm(2000)
-hbin <- hexbin(x,y,xbins=40)
-plot(hbin)
